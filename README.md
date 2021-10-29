@@ -12,7 +12,11 @@ Every E-Mail gets an extra directory for it's attachments named like this: __.__
 
 In order to use this you have to put the new **-N** option when invoking readpst from the shell. 
 
-*e.g.* `readpst -D -b -N -8 -t e -q -j 0 -o "Target/EML/Folder" "Path/to/pstfile.pst"`
+*e.g.* 
+
+```bash
+readpst -D -b -N -8 -t e -q -j 0 -o "Target/EML/Folder" "Path/to/pstfile.pst"
+```
 
 #### License
 
