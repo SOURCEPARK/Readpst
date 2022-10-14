@@ -1658,7 +1658,7 @@ void write_normal_email(FILE* f_output, char f_name[], pst_item* item, int mode,
         c_time = "Thu Jan 1 00:00:00 1970";
 
     // create our MIME boundaries here.
-    snprintf(boundary, sizeof(boundary), "--boundary-LibPST-iamunique-%i_-_-", rand());
+    snprintf(boundary, sizeof(boundary), "--boundary-LibPST-iamunique-_-_-");
     snprintf(altboundary, sizeof(altboundary), "alt-%s", boundary);
 
     // we will always look at the headers to discover some stuff
