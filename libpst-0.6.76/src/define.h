@@ -62,6 +62,7 @@
 
     #define D_MKDIR(x) mkdir(x)
     #define chdir      _chdir
+    #define mkdir      _mkdir // Only to make new use of mkdir work also on windows. mkdir is used in function write_separate_attachment in readpst.c 
     #define strcasecmp _stricmp
     #define vsnprintf  _vsnprintf
     #define snprintf   _snprintf
